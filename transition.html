@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>
+            transition
+        </title>
+        <style>
+            .outer{
+                margin-top:10%;
+                width:30%;
+                margin-left:35%;
+                background-color: black;
+                height:300px;
+                transition-property:height;
+                transition-duration:1s;
+                transition-timing-function:steps(6);
+                
+            }
+            .outer:hover{
+                height:700px;
+            }
+            .inner{
+                box-sizing:border-box;
+                font-size:30px;
+                padding:10px;
+                background-color: black;
+                color:white;
+            }
+             .a1{
+                box-sizing:border-box;
+                padding:10px;
+                font-size:25px;
+                line-height:2;
+                color:white;
+                position:fixed;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            <img src="oneplus.jpg"  alt="oneplus" width="100%"/>
+            <div class="inner"> OnePlus 8 Pro</div>
+            <div class="a1">ROM 256GB <br>
+                RAM 8GB<br>
+                Camera:48MP+12MP+12MP<br>
+                Version: Android 10<br>
+                Battery: 4,500 mAH<br>
+                Best Price:Rs 56900
+            </div>
+        </div>
+       
+    </body>
+</html>

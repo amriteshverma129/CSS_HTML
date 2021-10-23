@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Clock
+    </title>
+    <style>
+     .d1{
+         border:10px  solid brown;
+         width: 340px;
+         height:340px;
+        padding:10px;
+        border-radius: 170px;
+        box-sizing:border-box;
+        position:relative;
+        box-shadow: 10px 10px 10px grey;
+        animation-name:sample3 ;
+        animation-duration:5s;
+        animation-iteration-count:infinite;
+        animation-direction: alternate;
+        }
+        @keyframes sample3{
+            0%
+                {
+                    background-color:rgb(171, 240, 197);  }
+                25%{
+                    background-color:rgb(233, 233, 93); 
+                }
+                50%{
+                    background-color:rgb(125, 183, 221); 
+                }
+                75%{
+                    background-color:white;
+                }
+            100%
+            {
+                background-color:rgb(233, 187, 119); 
+            }
+        }
+        #a1{
+            position:absolute;
+            left:225px;
+            font-size:20px;
+            top:20px;
+            }
+        #a2{
+            position:absolute;
+            right:20px;
+            top:75px;
+            font-size:20px;
+        }
+        #a12{
+            position:absolute;
+            left:150px;
+            top:0px;
+            font-size:20px;
+        }
+        #a3{
+            position:absolute;
+           right:0px;
+            top:150px;
+            font-size:20px;
+        }
+        #a4{
+            position:absolute;
+            right:20px;
+            bottom:75px;
+            font-size:20px;
+        }
+        #a5{
+            position:absolute;
+            right:75px;
+            bottom:20px;
+            font-size:20px;
+        }
+        #a6{
+            position:absolute;
+            left:150px;
+            bottom:0px;
+            font-size:20px;
+        }
+        #a7{
+            position:absolute;
+            left:75px;
+            bottom:20px;
+            font-size:20px;
+        }
+        #a8{
+            position:absolute;
+            left:20px;
+            bottom:75px;
+            font-size:20px;
+        }
+        #a9{
+            position:absolute;
+            top:150px;
+            left:0px;
+            font-size:20px;
+        }
+        #a11{
+            position:absolute;
+            left:75px;
+            top:20px;
+            font-size:20px;}
+        #a10{
+            position:absolute;
+            left:20px;
+            top:75px;
+            font-size:20px;}
+        #B{
+            height:4%;
+            width:4%;
+            border-radius:6px;
+            background-color:black ;
+            position:absolute;
+            left:48%;
+            top:48%;
+        }
+        #c{
+            position:absolute;
+            width:1px;
+            height:160px;
+            background-color:black;
+            left:159.5px;
+            top:20px;
+            animation-name:sample;
+            animation-duration:60s;
+            animation-timing-function: linear;
+            animation-iteration-count:infinite;
+        }
+        @keyframes sample{
+            0%{
+                transform-origin:0px 87.5%;
+                transform:rotate(0deg);
+            }
+            100%{
+             transform-origin:0px 87.5%;
+            transform:rotate(360deg);
+            }
+            
+        }
+        #d{
+            position:absolute;
+            border:1px solid black;
+            width:2px;
+            height:148px;
+            background-color:black;
+            left:159px;
+            top:12px;
+            animation-name:sample2;
+            animation-duration:3600s;
+            animation-timing-function: linear;
+            animation-iteration-count:infinite;
+        }
+        @keyframes sample2{
+            0%{
+                transform-origin:1px 148px;
+                transform:rotate(0deg);
+            }
+            100%{
+             transform-origin:1px 148px;
+            transform:rotate(360deg);
+            }}
+    </style>
+</head>
+<body>
+    <div class="d1">
+        <span id="a12"><b>12</b></span>
+        <span id="a3"><b>3</b></span>
+        <span id="a9"><b>9</b></span>
+        <span id="a6"><b>6</b></span>
+        <span id="a1"><b>1</b></span>
+        <span id="a2"><b>2</b></span>
+        <span id="a4"><b>4</b></span>  
+        <span id="a7"><b>7</b></span>
+        <span id="a5"><b>5</b></span>
+        <span id="a8"><b>8</b></span>
+        <span id="a10"><b>10</b></span>
+        <span id="a11"><b>11</b></span>
+        <div id="c"></div>
+        <div id="d"></div>
+        <div id="B"></div>
+    </div>
+</body>

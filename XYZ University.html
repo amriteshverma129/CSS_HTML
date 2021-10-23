@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>XYZ University</title>
+    </head>
+    <body>
+        <table border="3px" width="700px">
+           <tr> <th colspan="3">XYZ University Student Registration</th></tr>
+           <tr>
+               <td rowspan="4"><b>Personal Details</b> </td>
+               <td>First Name<label style="color:red;">*</label></td>
+               <td><input type="text" maxlength="10" style="background-color: rgb(243, 243, 239);" required/></td>
+           </tr>
+           <tr>
+               <td>Last Name<label style="color:red;">*</label></td>
+               <td><input type="text" maxlength="10" style="background-color: rgb(243, 243, 239);" required/></td>
+           </tr>
+           <tr>
+               <td>Date of Birth<label style="color:red;">*</label></td>
+               <td><input type="date" required/></td>
+           </tr>
+           <tr>
+               <td> Gender<label style="color:red;">*</label></td>
+               <td><input type="radio" name="Gender" id="Male" /><label for="Male">Male</label>
+                <input type="radio" name="Gender" id="Female" /><label for="Female">Female</label>
+                <input type="radio" name="Gender" id="Other" /><label for="Other">Other</label></td>
+           </tr>
+         <tr>
+             <td rowspan="4"><b>Academic Details</b></td>
+             <td>Degree<label style="color:red;">*</label></td>
+             <td> 
+                 <select>
+                     <option>Masters</option>
+                     <option>Bachelors</option>
+                     <option>Doctorate</option>
+                 </select>
+             </td>
+         </tr> 
+         <tr>
+             <td>Specialization<label style="color:red;">*</label></td>
+             <td><input type="text" placeholder="English Literature" maxlength="40" required/></td>
+         </tr>
+         <tr>
+           <td>Mode of instruction<label style="color:red;">*</label></td>  
+           <td><input type="Checkbox" value="Classroom" id="Classroom"/><label for="Classroom">Classroom</label>
+            <input type="Checkbox" value="Online" id="Online"/><label for="Online">Online</label></td>
+         </tr>
+         <tr>
+             <td>Current GPA<label style="color:red;">*</label></td>
+             <td><input type="number" step="0.1" max="5" required/></td>
+         </tr>
+         <tr>
+         <td rowspan="2"><b>Contact Details</b></td>
+         <td>Phone Number<label style="color:red;">*</label></td>
+         <td><input type="tel" style="background-color: rgb(243, 243, 239);" required/></td>
+        </tr>
+        <tr>
+        <td > Address<label style="color:red;">*</label></td>
+        <td ><textarea rows="4" cols="40" style="background-color: rgb(243, 243, 239);" required></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="3" align="Center" ><b>I assure all the details are correct
+                <input type="checkbox" id="Yes"/><label for="Yes">Yes</label></b>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" align="Center"><input type="submit"/></td>
+        </tr>
+       
+        </table>
+    </body>
+</html>

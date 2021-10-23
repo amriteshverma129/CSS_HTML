@@ -1,0 +1,91 @@
+
+*{
+    box-sizing: border-box;
+}
+ #purple:checked~ .changeCol .header{
+     background-color: rgb(220, 201, 223);
+ }
+ #purple:checked~ .changeCol .header2 form{
+     background-color: rgb(220, 201, 223);
+     box-shadow:  3px 3px 18px 18px rgb(150, 60, 150);
+ }
+ #purple:checked~ .changeCol .header2 form a{
+     background-color:rgb(150, 60, 150) ;
+     color:white;
+ }
+ #purple:checked~ .changeCol .header2{
+    background-color: rgb(195, 153, 202); 
+ }
+
+ #green:checked~ .changeCol .header{
+     background-color:rgb(195, 235, 225);
+ }
+ #green:checked~ .changeCol .header2 form{
+     background-color: rgb(195, 235, 225);
+     box-shadow: 3px 3px 18px 18px rgb(49, 122, 110);
+ }
+ #green:checked~ .changeCol .header2 form a{
+     background-color:rgb(49, 122, 110) ;
+     color:white;
+ }
+ #green:checked~ .changeCol .header2{
+    background-color: rgb(106, 211, 211); 
+ }
+
+ #blue:checked~ .changeCol .header{
+     background-color:rgb(194, 214, 238);
+ }
+ #blue:checked~ .changeCol .header2 form{
+     background-color: rgb(194, 214, 238);
+     box-shadow:  3px 3px 18px 18px rgb(48, 137, 219);
+ }
+ #blue:checked~ .changeCol .header2 form a{
+     background-color:rgb(48, 137, 219) ;
+     color:white;
+ }
+ #blue:checked~ .changeCol .header2{
+    background-color: rgb(137, 162, 199); 
+ }
+section{ 
+    font-family: 'Ubuntu', sans-serif;   
+    height : 80vh ; 
+    background-color : white;
+}
+.header{
+    text-align:center;
+    padding:10px;
+    height:6vh;
+}
+.header2{
+    height:74vh;
+    position:relative;
+}
+.header2 form{
+    position:absolute;
+    height:52vh;
+    width:25%;
+    margin-left: 39%  ;
+    margin-top:12vh;
+
+}
+.header2 input{
+    padding:10px;
+    border-radius:18px;
+    margin-bottom:10%;
+    margin-left:20%;
+    text-align:center;
+    border:none;
+}
+.header2 a{
+    text-decoration: none;
+    border-radius:19px;
+    margin-top:40%;
+    margin-left:35%;
+    padding:7px 23px;
+}
+.header2 p{
+    text-align:center;
+}
+.header2 #a1{
+    font-size:30px;
+}

@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(235, 206, 211);
+}
+
+.content {
+    float: left;
+    width: 350px;
+    padding: 0 10px;
+}
+
+#alignDiv {
+    margin-left: 100px;
+}
+
+
+.card {
+    height:300px;
+    box-shadow:2px 2px 2px grey;
+    padding:16px;
+    font-size:larger;
+    background-color:#f1f1f1 ;
+    text-align:center;
+    transition-property: all;
+    transition-duration:0.3s;
+
+}
+.card:hover {
+    box-shadow:5px 5px 5px grey;
+}
+
+img {
+    width:100%;
+    margin-bottom:20px;
+}
+
+h1 {
+   text-align:center;
+}
+
+@media screen and (max-width:600px)
+{
+    #alignDiv {
+        margin-left: 0px;
+    }
+   body{
+       background-color: black;
+       color:white;
+   } 
+   p{
+    font-size:20px;
+   }
+}
+ /* Code the required media query here as per given requirements 
+1)Change margin-left to 0px in id alignDiv
+2)Change the appropriate font color & background color of card and body
+3)Provide the necessary styling to class content , to make it appear as per given image 
+4)Make font size of 20px for p tag  */
+
+

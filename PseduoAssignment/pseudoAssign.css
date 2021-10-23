@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Set style for buttons */
+.successBtn {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    background-color: green;
+    border: none;
+    width: 100%
+}
+
+/* Style the input form fields */
+input[type=text],
+input[type=password],
+input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=checkbox]+label {
+    color: grey;
+    font-style: italic;
+}
+form {
+    width: 500px;
+}
+
+
+/* On hover, color of button should change to rgb(2, 66, 2), Use required pseudo class for it */
+.successBtn {
+    /* Provide appropriate background color as mentioned above to button */
+}
+
+
+
+a {
+    color: darkblue;
+}
+
+
+
+
+
+a {
+   
+}
+
+
+h2 {
+    
+}
+input[type=text],
+input[type=password],
+input[type=email] {
+    background: #928f8f;
+    color: whitesmoke;
+    outline: none;
+}
+
+input {
+    color: red;
+    font-style: normal;
+}
+input{
+    color: rgb(48, 46, 46)
+}
+
+label{
+    
+}

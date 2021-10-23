@@ -1,0 +1,105 @@
+body {
+    background-color: lightgray;
+    font-size: 1em;
+    font-family: Verdana,Tahoma, sans-serif;
+}
+
+.main-layout {
+    max-width: 1000px;
+    margin: 0px auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:5px;
+
+}
+
+header img {
+    width: 100%;
+    vertical-align: top;
+}
+
+header {
+    grid-column: 1/5;
+}
+
+footer {
+
+    text-align: center;
+}
+
+
+button {
+    background-color: rgb(125, 137, 245);
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(99, 113, 241);
+}
+
+
+section,
+.card {
+    background-color: white;
+}
+
+.org-description-left {
+    text-align: justify;
+    padding: 10px;
+    grid-column:1/4;
+
+
+}
+
+.tour-description-image {
+    text-align: left;
+  grid-row:3/4;
+    width: 100%;
+
+}
+
+.tour-description {
+    text-align: left;
+
+    padding-left: 10px;
+
+}
+
+.price-details {
+    grid-column:3/6;
+    grid-row:4/5;
+    padding: 10px;
+}
+
+.card {
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100px;
+    border-radius: 50px;
+
+}
+.callus{
+    padding: 10px;
+    grid-column:4/5;
+}
+
+.company {
+    position: absolute;
+    margin: 0px auto;
+    top: 50px;
+    padding: 20px;
+    color: black;
+    font-size: 5em;
+    text-shadow: 2px 2px lightgrey;
+}

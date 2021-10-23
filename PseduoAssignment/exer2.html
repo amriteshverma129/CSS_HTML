@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo2 </title>
+    <style>
+        .form{
+            border:1px solid rgb(228, 223, 223);
+            max-width:30%;
+        }
+        input[type="text"],input[type="email"],input[type="password"]{
+            border:none;
+            width:100%;
+            background-color: rgb(192, 188, 188);
+            padding:15px;
+            margin: 5px 0 22px 0;
+            box-sizing:border-box;
+        }
+        input[type="submit"]{
+            border:none;
+            width:100%;
+            padding:15px;
+            background-color: rgb(98, 207, 98);
+            color:white;
+            margin-bottom:10px;
+           
+        }
+        a:link{
+            text-decoration: none;
+        }
+        a:hover{
+            color:red;
+            text-decoration: underline;
+        }
+        input:focus{
+            color:white;
+            background-color:grey;
+            outline:none;
+        } 
+        input[type="checkbox"]+label{
+            color:grey;
+        }
+        
+        
+       
+        input[type="submit"]:hover{
+           background-color:green;
+        }
+        input:checked+label{
+            color:red;
+        }
+       
+    </style>
+</head>
+<body>
+  <div class="form">
+    <h2>Sign Up</h2>
+    <p>All are mandatory fields</p>
+    <hr>
+    <form>
+    <label for="name"><b>Name<label style="color:red;">*</label></b></label> <br>
+    <input type="text" id="name" placeholder="Enter name" required/>
+    <label for="email"><b>Email</b><label style="color:red;">*</label></label> <br>
+    <input type="email" id="email" placeholder="Enter name" required/>
+    <label for="password"><b>Password</b><label style="color:red;">*</label></label> <br>
+    <input type="password" id="password" placeholder="Enter name" required/>
+    <input type="checkbox" id="checkbox" required/><label for="checkbox"  ><i>All field above are correct<label style="color:red;">*</label></i></label>
+     <p>By creating account you agree to our <a href="#">Terms & Conditions</a></p>
+     <input type="submit" value="Sign Up"/> 
+</form>
+  </div>
+</body>
